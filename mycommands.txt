@@ -1,0 +1,14 @@
+fork the original repo
+copy git url of forked repo
+git clone <repo_url>
+do some changes
+git add . // moves my changes to staging area, ie we are telling what all to save
+git commit -m "my changes" // saves my changes with the message
+git push origin main // uploads my changes to github
+
+now after some time, the original repo gets changed because of the obvious changes by other users.
+time to fetch/sync
+
+git remote add upstream <original-repo-url>
+git fetch upstream
+git merge upstream/main // btw theres another method by clicking sync fork but we'll explore it later.
