@@ -9,6 +9,6 @@ git push origin main // uploads my changes to github
 now after some time, the original repo gets changed because of the obvious changes by other users.
 time to fetch/sync
 
-git remote add upstream <original-repo-url>
-git fetch upstream
+git remote add upstream <original-repo-url> // one time ig
+git fetch upstream // need to write this whenever our forked repo lags behind the original one.
 git merge upstream/main // btw theres another method by clicking sync fork but we'll explore it later.
